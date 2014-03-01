@@ -1,0 +1,27 @@
+{
+  "name": "osx-dock",
+  "version": "0.1.0",
+  "description": "Tweak osx dock configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gingermusketeer/osx-dock.git"
+  },
+  "keywords": [
+    "osx",
+    "dock"
+  ],
+  "author": "Max Brosnahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gingermusketeer/osx-dock/issues"
+  },
+  "homepage": "https://github.com/gingermusketeer/osx-dock",
+  "dependencies": {
+    "killall": "git://github.com/gingermusketeer/killall.git",
+    "osx-defaults": "git://github.com/gingermusketeer/osx-defaults.git"
+  }
+}
